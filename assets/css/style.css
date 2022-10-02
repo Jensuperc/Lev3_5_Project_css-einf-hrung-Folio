@@ -1,0 +1,384 @@
+@font-face {
+    font-family: 'Athene';
+    src: url("../fonts/Athene.otf");
+}
+
+@font-face {
+    font-family: 'OpenSans-Medium';
+    src: url("../fonts/OpenSans-Medium.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: auto;
+    font-weight: 100;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    width: 100%;
+    position: fixed;
+    border-bottom: 2px solid #042A5A;
+    color: #042A5A;
+    font-family: 'OpenSans-Medium';
+}
+
+nav p {
+    padding: 1vh 25vh;
+    font-size: 1.7rem;
+}
+
+header .page0 {
+    height: 200vh;
+    width: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    background-color: #EFE8D7;
+    font-family: 'Athene';
+    color: #042A5A;
+}
+
+h1:nth-of-type(1) {
+    border-bottom: 2px solid #042A5A;
+    font-size: 12.6rem;
+    margin-top: 10vh;
+}
+
+h1:nth-of-type(2) {
+    font-size: 12.6rem;
+    border-bottom: 2px solid #042A5A;
+}
+
+h1 span {
+    text-decoration: 2px line-through #042A5A;
+    padding: 10px 0 30px 0;
+    color: transparent;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    padding-top: 10vh;
+}
+
+header p {
+    margin-top: 5vh;
+    font-size: 2rem;
+}
+
+p span {
+    font-family: 'OpenSans-Medium';
+}
+
+/*PAGE .01*/
+.page01 {
+    height: 225vh;
+    width: auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #F4C4C4;
+    font-family: 'OpenSans-Medium';
+    font-style: normal;
+    font-weight: 100;
+    color: #282B29;
+    padding-right: 20vh;
+}
+
+.pagenum1 {
+    font-family: 'OpenSans-Medium';
+    font-size: 1.5rem;
+    padding: 10vh 0 0 20vh;
+}
+
+.page01 h2:nth-of-type(1) {
+    font-family: 'Athene';
+    font-size: 15rem;
+    margin-bottom: -10vh;
+    padding: 5vh 0 0 0;
+    align-self: flex-start;
+}
+
+.page01 h2:nth-of-type(2) {
+    font-family: 'Athene';
+    font-size: 15rem;
+    align-self: flex-start;
+    font-family: 'OpenSans-Medium';
+}
+
+.blocktext1 {
+    align-self: flex-end;
+    width: 800px;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    padding-bottom: 5vh;
+}
+
+.table_headline {
+    display: flex;
+    justify-content: end;
+    align-self: flex-end;
+    width: 850px;
+    height: 20px;
+    text-align: right;
+    align-items: flex-end;
+    border-bottom: 2px solid #282B29;
+    padding-top: 2vh;
+}
+
+.table {
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-end;
+    width: 850px;
+    height: 100px;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #282B29;
+    padding: 2vh 0;
+}
+
+.number {
+    font-size: 1rem;
+    margin: auto 2vh auto 0px;
+}
+
+.keyword {
+    text-align: left;
+    margin: auto 0 auto 0;
+    font-size: 1.5rem;
+}
+
+.description {
+    display: flex;
+    justify-content: end;
+    align-self: flex-end;
+    width: 850px;
+    height: auto;
+    text-align: right;
+    align-items: flex-end;
+    font-size: 1rem;
+    margin: auto 0 auto 0;
+}
+
+.batch {
+    display: flex;
+    justify-content: end;
+    align-self: flex-end;
+    width: 10%;
+    height: 8%;
+    position: relative;
+    padding: 20vh 0 20vh 0;
+}
+
+/* PAGE .02  */
+
+.page02 {
+    height: 400vh;
+    width: auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #DEB873;
+    font-family: 'OpenSans-Medium';
+    font-style: normal;
+    font-weight: 100;
+    padding-left: 20vh;
+    color: #7D2222;
+}
+
+.pagenum2 {
+    font-family: 'OpenSans-Medium';
+    font-size: 1.5rem;
+    padding: 20vh 20vh 0 0;
+    align-self: flex-end;
+    font-family: 'OpenSans-Medium';
+}
+
+.page02 h2:nth-of-type(1) {
+    align-self: flex-end;
+    font-family: 'Athene';
+    font-size: 15rem;
+    margin-bottom: -5vh;
+    padding: 5vh 0 0 0;
+}
+
+.page02 h2:nth-of-type(2) {
+    align-self: flex-end;
+    font-family: 'Athene';
+    font-size: 15rem;
+}
+
+.blocktext2 {
+    align-self: flex-start;
+    width: 800px;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    padding-bottom: 20vh;
+    color: #282B29;
+}
+
+.photobox1 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    align-self: flex-start;
+    padding-bottom: 15vh;
+}
+
+h4:nth-of-type(1) {
+    align-self: flex-start;
+    font-size: 4rem;
+    font-family: 'Athene';
+}
+
+.pic1 {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.photobox2 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    align-self: flex-start;
+    padding-bottom: 15vh;
+}
+
+.photobox2 h4:nth-of-type(1) {
+    align-self: flex-start;
+    font-size: 4rem;
+    font-family: 'Athene';
+    margin-left: 14.9vh;
+    text-align: right;
+}
+
+.pic2 {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.photobox3 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    flex-direction: row;
+    align-self: flex-start;
+    padding-bottom: 15vh;
+}
+
+.photobox3 h4:nth-of-type(1) {
+    align-self: flex-start;
+    font-size: 4rem;
+    font-family: 'Athene';
+    padding: 0;
+
+}
+
+.pic3 {
+    align-self: flex-end;
+    width: 65%;
+    height: 100%;
+    padding: 0;
+}
+
+.photobox4 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    align-self: flex-start;
+    padding-bottom: 15vh;
+}
+
+.photobox4 h4:nth-of-type(1) {
+    align-self: flex-start;
+    font-size: 4rem;
+    font-family: 'Athene';
+    text-align: right;
+    margin-left: 12.4vh;
+
+}
+
+.pic4 {
+    align-self: flex-start;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+/* PAGE .O3 = FOOTER */
+
+.page03 {
+    display: flex;
+    height: 150vh;
+    width: auto;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #D2D2D2;
+    font-family: 'OpenSans-Medium';
+    font-style: normal;
+    font-weight: 100;
+    color: #282B29;
+    padding-right: 20vh;
+    color: #388883;
+    font-family: 'OpenSans-Medium';
+}
+
+.pagenum3 {
+    font-family: 'OpenSans-Medium';
+    font-size: 1.5rem;
+    padding: 0vh 0 0 20vh;
+}
+
+.page03 h2:nth-of-type(1) {
+    font-family: 'Athene';
+    font-size: 15rem;
+    margin-bottom: -10vh;
+    padding: 5vh 0 0 0;
+    align-self: flex-start;
+}
+
+.page03 h2:nth-of-type(2) {
+    font-family: 'Athene';
+    font-size: 15rem;
+    align-self: flex-start;
+    font-family: 'OpenSans-Medium';
+}
+
+.blocktext_footer {
+    align-self: center;
+    width: 430px;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    padding-bottom: 20vh;
+    margin-top: 0vh;
+}
+
+footer ul {
+    list-style: none;
+    text-align: right;
+    align-self: flex-end;
+    line-height: 3rem;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #388883;
+    font-size: 1.5rem;
+}
+
+footer ul li a:hover {
+    text-decoration: underline #388883;
+}
